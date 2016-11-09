@@ -82,9 +82,10 @@
     <Compile Include="Enums.cs" />
     <Compile Include="ICase.cs" />
     <Compile Include="PageDatas\pData.cs" />
-    <Compile Include="PageEntities\expedia\CreateAccount.cs" />
+    <Compile Include="PageObjects\expedia\SignIn.cs" />
     <Compile Include="PageObjects\expedia\MainPage.cs" />
     <Compile Include="PageObjects\expedia\CreateAccount.cs" />
+    <Compile Include="PageTests\expedia\SignInTests.cs" />
     <Compile Include="PageTests\expedia\CreateAccountTests.cs" />
     <Compile Include="PageTests\expedia\MainPageTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -92,6 +93,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
+    <None Include="PageDatas\expedia\SignIn.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
     <None Include="PageDatas\expedia\CreateAccount.json">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>

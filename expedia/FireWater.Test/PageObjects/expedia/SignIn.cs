@@ -7,9 +7,9 @@ using System.Text;
 
 namespace FireWater.Test.PageObjects.expedia
 {
-    public class CreateAccount : BaseCase
+    public class SignIn : BaseCase
     {
-        public CreateAccount(IWebDriver driver)
+        public SignIn(IWebDriver driver)
         {
             base.driver = driver;
             //if (driver.FindElement(By.TagName("title")).Text != "test")
@@ -19,7 +19,7 @@ namespace FireWater.Test.PageObjects.expedia
         }
 
 
-        public IWebDriver addUser(pData prms)
+        public IWebDriver signIn(pData prms)
         {
 
             var dataSource = prms.dataSource.FirstOrDefault();
@@ -32,10 +32,8 @@ namespace FireWater.Test.PageObjects.expedia
                 }
 
             }
-            IJavaScriptExecutor js = driver as IJavaScriptExecutor;
-            string title = (string)js.ExecuteScript("$('#create-account-expedia-policy').trigger('click')");
 
-            driver.FindElement(By.Id("create-account-form")).Submit();
+            driver.FindElement(By.Id("submitButton")).Submit();
 
             return driver;
         }

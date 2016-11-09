@@ -1,0 +1,14 @@
+﻿{
+    "inputs": [
+        {
+            "signin-loginid": { "id": "signin-loginid"},
+            "signin-password": { "id": "signin-password" }
+        }
+    ],
+    "dataSource": [
+        {
+            "signin-loginid": "vsendag4@gmail.com",
+            "signin-password": "123654"
+        }
+    ]
+}
