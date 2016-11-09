@@ -26,7 +26,6 @@ namespace FireWater.Test.PageObjects.n11
             //}
         }
 
-        [Test]
         public IWebDriver register(string firstName, string lastName, string registrationEmail, string registrationPassword)
         {
             

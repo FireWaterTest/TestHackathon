@@ -22,7 +22,6 @@ namespace FireWater.Test.PageObjects.thedemositecouk
         }
 
 
-        [Test]
         public IWebDriver addUser(string username, string password)
         {
             driver.Url = "http://thedemosite.co.uk/login.php";

@@ -19,7 +19,6 @@ namespace FireWater.Test.PageObjects.n11
             //}
         }
 
-        [Test]
         public AnaSayfa login(string email, string password)
         {
 

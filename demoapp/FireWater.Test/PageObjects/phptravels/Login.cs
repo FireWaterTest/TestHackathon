@@ -21,7 +21,6 @@ namespace FireWater.Test.PageObjects.phptravels
             //}
         }
 
-        [Test]
         public IWebDriver login(string userName, string password)
         {
             driver.FindElement(By.Name("userName")).SendKeys(userName);

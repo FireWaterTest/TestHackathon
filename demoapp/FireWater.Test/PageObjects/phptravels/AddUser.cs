@@ -31,7 +31,6 @@ namespace FireWater.Test.PageObjects.phptravels
         }
 
 
-        [Test]
         public IWebDriver register(string firstName, string lastName, string userName, string password)
         {
             

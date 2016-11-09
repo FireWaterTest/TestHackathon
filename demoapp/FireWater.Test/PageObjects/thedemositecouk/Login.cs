@@ -21,7 +21,6 @@ namespace FireWater.Test.PageObjects.thedemositecouk
         }
 
 
-        [Test]
         public IWebDriver login(string username, string password)
         {
             driver.FindElement(By.Name("username")).SendKeys(username);

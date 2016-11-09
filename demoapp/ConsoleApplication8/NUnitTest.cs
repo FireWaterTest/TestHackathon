@@ -22,20 +22,20 @@ namespace ConsoleApplication8
         [Test]
         public void OpenAppTest()
         {
-            driver.Url = "http://yazilim042/EBYS/Login.aspx";
-            driver.Manage().Timeouts().ImplicitlyWait(TimeSpan.FromSeconds(10));
+            //driver.Url = "http://yazilim042/EBYS/Login.aspx";
+            //driver.Manage().Timeouts().ImplicitlyWait(TimeSpan.FromSeconds(10));
 
-            driver.FindElement(By.Id("KullaniciAdi")).SendKeys("test1");
-            driver.FindElement(By.Id("Sifre")).SendKeys("111");
-            driver.FindElement(By.Id("login-form")).Submit();
+            //driver.FindElement(By.Id("KullaniciAdi")).SendKeys("test1");
+            //driver.FindElement(By.Id("Sifre")).SendKeys("111");
+            //driver.FindElement(By.Id("login-form")).Submit();
 
-            driver.Manage().Timeouts().ImplicitlyWait(TimeSpan.FromSeconds(20));
+            //driver.Manage().Timeouts().ImplicitlyWait(TimeSpan.FromSeconds(20));
 
-            foreach (var item in driver.FindElements(By.TagName("button")))
-            {
-                if (item.Text == "Diğer Oturumları Kapat")
-                    item.Click();
-            }
+            //foreach (var item in driver.FindElements(By.TagName("button")))
+            //{
+            //    if (item.Text == "Diğer Oturumları Kapat")
+            //        item.Click();
+            //}
 
         }
 
