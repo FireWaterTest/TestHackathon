@@ -28,7 +28,6 @@ namespace FireWater.Test.PageTests.expedia
 
             var data = Extensions.toObjectFromJson<pData>(json);
 
-
             usr.signIn(data);
 
             var testElement = driver.FindElement(By.XPath("//*[@id=\"header-account-menu\"]"));
@@ -38,6 +37,9 @@ namespace FireWater.Test.PageTests.expedia
                 result = testElement.Text;
 
             Assert.AreNotEqual(result, "Account");
+
+            driver.Close();
+
         }
 
     }

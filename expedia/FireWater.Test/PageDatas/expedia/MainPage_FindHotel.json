@@ -1,0 +1,16 @@
+﻿{
+    "inputs": [
+        {
+            "hotel-destination": { "id": "hotel-destination", "name": "" },
+            "hotel-checkin": { "id": "hotel-checkin", "name": "" },
+            "hotel-checkout": { "id": "hotel-checkout", "name": "" }
+        }
+    ],
+    "dataSource": [
+        {
+            "hotel-destination": "Honolulu, Hawaii",
+            "hotel-checkin": "11/09/2016",
+            "hotel-checkout": "11/10/2016"
+        }
+    ]
+}

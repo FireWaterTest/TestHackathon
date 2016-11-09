@@ -93,6 +93,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
+    <None Include="PageDatas\expedia\MainPage_FindHotel.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
     <None Include="PageDatas\expedia\SignIn.json">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>

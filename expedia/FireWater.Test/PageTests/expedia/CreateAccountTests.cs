@@ -37,7 +37,9 @@ namespace FireWater.Test.PageTests.expedia
             if (testElement != null)
                 result = testElement.Text;
 
-            Assert.AreNotEqual(result,"Account");
+            Assert.AreNotEqual(result, "Account");
+
+            driver.Close();
         }
 
     }
