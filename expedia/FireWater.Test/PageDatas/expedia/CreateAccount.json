@@ -1,0 +1,20 @@
+﻿{
+    "inputs": [
+        {
+            "firstname": { "id": "create-account-firstname", "name": "" },
+            "lastname": { "id": "create-account-lastname", "name": "" },
+            "emailId": { "id": "create-account-emailId", "name": "" },
+            "password": { "id": "create-account-password", "name": "" },
+            "confirmPassword": { "id": "create-account-confirm-password", "name": "" }
+        }
+    ],
+    "dataSource": [
+        {
+            "create-account-firstname": "Evren",
+            "create-account-lastname": "Coskun",
+            "create-account-emailId": "vsendag4@gmail.com",
+            "create-account-password": "123654",
+            "create-account-confirm-password": "123654"
+        }
+    ]
+}
