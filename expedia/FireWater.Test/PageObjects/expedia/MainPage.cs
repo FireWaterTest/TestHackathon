@@ -17,15 +17,5 @@ namespace FireWater.Test.PageObjects.expedia
             //}
         }
 
-
-        public IWebDriver addUser(string username, string password)
-        {
-            driver.FindElement(By.Name("username")).SendKeys(username);
-            driver.FindElement(By.Name("password")).SendKeys(password);
-            driver.FindElement(By.Name("FormsButton2")).Click();
-
-            return driver;
-        }
-
     }
 }

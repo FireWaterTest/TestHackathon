@@ -16,19 +16,7 @@ namespace FireWater.Test.PageTests.expedia
         [Test]
         public void runTest()
         {
-            var driver = new ChromeDriver();
-            driver.Url = "http://newtours.demoaut.com/mercurysignon.php";
-            driver.Manage().Timeouts().ImplicitlyWait(TimeSpan.FromSeconds(10));
-
-            var usr = new MainPage(driver);
-
-            usr.addUser("test", "test");
-
-            string result = driver.FindElement(By.XPath("/html/body/table/tbody/tr/td[1]/big/blockquote/blockquote/font/center/b")).Text;
-
-            Assert.AreEqual(result, "**Failed Login**");
-
+            //TODO: mainPage testleri burada yapilacak.
         }
-
     }
 }
