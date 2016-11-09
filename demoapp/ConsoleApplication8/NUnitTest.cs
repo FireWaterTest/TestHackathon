@@ -19,7 +19,7 @@ namespace ConsoleApplication8
             driver = new ChromeDriver();
         }
 
-        [Test]
+        //[Test]
         public void OpenAppTest()
         {
             //driver.Url = "http://yazilim042/EBYS/Login.aspx";
